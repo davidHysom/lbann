@@ -42,6 +42,7 @@ namespace lbann {
 smiles_data_reader::smiles_data_reader(const bool shuffle)
   : generic_data_reader(shuffle) {}
 
+
 smiles_data_reader::smiles_data_reader(const smiles_data_reader& rhs)  : generic_data_reader(rhs) {
   copy_members(rhs);
 }
