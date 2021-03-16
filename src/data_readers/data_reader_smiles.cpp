@@ -36,6 +36,7 @@
 #include <random>
 #include <time.h>
 
+
 namespace lbann {
 
 smiles_data_reader::smiles_data_reader(const bool shuffle)
